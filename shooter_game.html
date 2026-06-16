@@ -578,8 +578,8 @@ function spawnEnemy(type = 'brute') {
 //  BOSS FACTORY
 // ═══════════════════════════════════════════════════════════════════════
 function spawnBoss() {
-  const maxHp = Math.floor(30 + gs.wave * 25);
-  const speed  = 1.4  + gs.wave * 0.10;
+  const maxHp = Math.floor(30 + gs.wave * gs.wave * 45);
+  const speed  = 2.0  + gs.wave * 0.25;
 
   const group = new THREE.Group();
   group.position.set(0, 0, 0);
