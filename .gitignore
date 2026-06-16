@@ -1,0 +1,15 @@
+# PyCharm (JetBrains) sozlamalari va kesh fayllari
+.idea/
+*.iws
+out/
+
+# Operatsion tizim kesh fayllari
+.DS_Store
+Thumbs.db
+
+# Kelgusida Node.js yoki npm ishlatsangiz (har ihtimolga qarshi)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
